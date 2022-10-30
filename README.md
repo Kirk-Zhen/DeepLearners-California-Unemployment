@@ -48,7 +48,6 @@ Here is the visualization of the historical unemployment rate of 15 selected are
 1. RNN would be a good choice for times series data.
 2. Each timestamp only has partial observations, how does that work in RNN? What should the data that we feed into the RNN looks like? 
 3. Is that possible if we just take California data as input? 
-4. Except for California, Los Angeles County, and Los Angeles-Long Beach-Glendale MD, whose data are available start from 1976, all other areas only has data from 1990 - 2022.
 
 ## Tasks on 10/23/2022:
 1.  Zijian: Create a repository with Readme.md as wanted
