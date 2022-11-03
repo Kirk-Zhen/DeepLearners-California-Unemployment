@@ -45,7 +45,7 @@ We are going to use California's unemployment data for the past few decades to p
 
 #### Data visualization
 Here is the visualization of the historical unemployment rate of 15 selected areas in the dataset.
-<img src="fig/plot1.png" width="800"/> 
+<img src="fig/plot1.png" width="850"/> 
 
 ### Data Preparation:
 1. Convert Year and Month into timestamps.
@@ -53,11 +53,10 @@ Here is the visualization of the historical unemployment rate of 15 selected are
 3. Take Labor Force as another feature.
 4. Take Unemployment Rate as target feature.
 
-### Difficulties & some ideas:
+### Difficulties & some ovservations & some ideas:
 1. RNN would be a good choice for times series data.
 2. Each timestamp only has partial observations, how does that work in RNN? What should the data that we feed into the RNN looks like? 
 3. Is that possible if we just take California data as input? 
-
 
 
 
