@@ -37,7 +37,6 @@ We are going to use California's unemployment data for the past few decades to p
 |Unemployment Rate| Unemployment / Total Labor Force
 |Seasonally Adjusted|whether the data is modified to eliminate the effect of seasonal and calendar influences
 
-#### Data visualization
 
 
 
