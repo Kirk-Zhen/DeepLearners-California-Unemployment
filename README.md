@@ -19,6 +19,10 @@ We are going to use California's unemployment data for the past few decades to p
 
 ### Dataset: [California’s Unemployment Rate ](https://data.ca.gov/dataset/local-area-unemployment-statistics-laus/resource/b4bc4656-7866-420f-8d87-4eda4c9996ed)
 
+#### Descriptive statistics:
+* [group by area name](stat/area_name_stat.txt) 
+* [group by area type](stat/area_type_stat.txt)
+
 |Feature|Description|
 |:---|:---|
 |||
@@ -32,6 +36,11 @@ We are going to use California's unemployment data for the past few decades to p
 |Unemployment| number of unemployment force in the given area
 |Unemployment Rate| Unemployment / Total Labor Force
 |Seasonally Adjusted|whether the data is modified to eliminate the effect of seasonal and calendar influences
+
+#### Data visualization
+
+
+
 
 
 #### Data visualization
@@ -50,11 +59,6 @@ Here is the visualization of the historical unemployment rate of 15 selected are
 3. Is that possible if we just take California data as input? 
 
 
-## Tasks on 10/23/2022:
-1.  Zijian: Create a repository with Readme.md as wanted
-2. Hossein: Convert rows of dataframe to objects of appropriate attributes (one hot encoded, timestamp, integer). Then we have an array of objects
-3.  Nic: See if we can convert this array of objects to a single dataframe
-4.  Tixian: See how to pickle an object, be it an array of objects or a dataframe (depending on the answer to 3rd question we may need to pickle a dataframe or an array of objects)
 
 
 
@@ -75,3 +79,16 @@ To install all requirements:
 pip install -r requirements.txt
 ```
 
+## Project Timeline and Milestones
+### Tasks on 10/23/2022:
+1.  ~~Zijian: Create a repository with Readme.md as wanted~~
+2. ~~Hossein: Convert rows of dataframe to objects of appropriate attributes (one hot encoded, timestamp, integer). Then we have an array of objects~~
+3.  ~~Nic: See if we can convert this array of objects to a single dataframe~~
+4.  ~~Tixian: See how to pickle an object, be it an array of objects or a dataframe (depending on the answer to 3rd question we may need to pickle a dataframe or an array of objects)~~
+
+
+### Tasks on 11/06/2022:
+1. Drop date feature for linear regression.
+2. Try unemployment rate time series for each area as input for RNN
+3. Try unemployment rate and labor force in time series for each area as input for RNN
+4. Consider category data embedding for RNN
