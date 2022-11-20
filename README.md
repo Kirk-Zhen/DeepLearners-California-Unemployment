@@ -20,8 +20,8 @@ We are going to use California's unemployment data for the past few decades to p
 ### Dataset: [California’s Unemployment Rate ](https://data.ca.gov/dataset/local-area-unemployment-statistics-laus/resource/b4bc4656-7866-420f-8d87-4eda4c9996ed)
 
 #### Descriptive statistics:
-* [group by area name](stat/area_name_stat.txt) 
-* [group by area type](stat/area_type_stat.txt)
+* [group by area name](Data/area_name_stat.txt) 
+* [group by area type](Data/area_type_stat.txt)
 
 |Feature|Description|
 |:---|:---|
@@ -37,7 +37,6 @@ We are going to use California's unemployment data for the past few decades to p
 |Unemployment Rate| Unemployment / Total Labor Force
 |Seasonally Adjusted|whether the data is modified to eliminate the effect of seasonal and calendar influences
 
-#### Data visualization
 
 
 
@@ -45,7 +44,7 @@ We are going to use California's unemployment data for the past few decades to p
 
 #### Data visualization
 Here is the visualization of the historical unemployment rate of 15 selected areas in the dataset.
-<img src="fig/plot1.png" width="850"/> 
+<img src="Figures/plot1.png" width="850"/> 
 
 ### Data Preparation:
 1. Convert Year and Month into timestamps.
